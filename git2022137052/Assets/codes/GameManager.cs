@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,11 +8,15 @@ using UnityEngine.SceneManagement;
 // 재시작 할 때 image restart를 보이지 않게 하자
 public class GameManager : MonoBehaviour
 {
-    
-    
-    
+  
+    public void OnClickRestart()
+    {
+        //첫 장면을 가져오게 된다.
+        //GetActiveScene.name를 통해 현재 scene의 이름을 받아온다.
+        //LoadScene을 통해 해당 scene을 실행한다.z
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
-    // 키고 끄는 ui 변수
     public GameObject imageRestart;
 
     // Start is called before the first frame update
@@ -30,15 +33,5 @@ public class GameManager : MonoBehaviour
     }
 
     //restart 버튼을 누르면
-    public void OnClickRestart()
-    {
-        //첫 장면을 가져오게 된다.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-      
-    
-
-
-     
+ 
 }
