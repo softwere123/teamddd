@@ -10,6 +10,7 @@ public class CubeDestroyed : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("π›¿¿");
             collision.gameObject.GetComponent<BulletDestroyed>().PlayerDamaged(attackPoint);
             Destroy(this.gameObject);
         }
