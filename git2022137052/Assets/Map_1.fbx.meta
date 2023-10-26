@@ -13,7 +13,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sakura_shd
+    second: {fileID: 2100000, guid: 6d30b1167733ec54ab3031b27f831ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sakura_shd2
     second: {fileID: 2100000, guid: 11bde00c9c2f31f4f93e60e58bfcf76f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree
+    second: {fileID: 2100000, guid: b91778c97c8bb04429444e9680af5b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_end
+    second: {fileID: 2100000, guid: b91778c97c8bb04429444e9680af5b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weed
+    second: {fileID: 2100000, guid: 04b88498a9a92764e851c3cff91f7d35, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

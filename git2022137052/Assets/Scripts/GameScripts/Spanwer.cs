@@ -10,8 +10,6 @@ public class Spanwer : MonoBehaviour
     public float changeTimer = 0.0f; // 미니맵 이동 타이머
     public float changeCheckTime = 10.0f; // 미니맵 생성 및 교체 간격
 
-    public GameObject[] gameObjects = new GameObject[3];
-    public GameObject[] sPanwnerPrefabs = new GameObject[3];
 
     public int myStation = 0;
     public List<float> StationTime = new List<float>();
@@ -35,7 +33,7 @@ public class Spanwer : MonoBehaviour
         if(StationCheckTimer <= 0 )
         {
             StationCheckTimer = StationTime[myStation];
-            GameObject temp = Instantiate(ProjectTileList[myStation]);
+            GameObject temp = Instantiate(ProjectTileList[myStation], spawnPosition, Quaternion.identity);
             Destroy(temp, StationTime[myStation]);
             myStation++;
         }
