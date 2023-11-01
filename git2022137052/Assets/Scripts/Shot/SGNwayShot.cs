@@ -43,7 +43,7 @@ public class SGNwayShot : SGBaseShot
                 if (projectile == null)
                 {
                     break;
-                }
+                } 
 
                 float baseAngle = wayNum % 2 == 0 ? centerAngle - (betweenAngle / 2f) : centerAngle;
 
