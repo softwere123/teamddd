@@ -19,6 +19,8 @@ public class BulletDestroyed : MonoBehaviour
 
         if (PlayerHP < 0)
         {
+            Debug.Log("½ÇÇà2");
+
             Die();
         }
     }
@@ -26,6 +28,7 @@ public class BulletDestroyed : MonoBehaviour
     public void Die()
     {
        this.gameObject.SetActive(false);
+        GameManager.instance.Restart.SetActive(true);
     }
     // Start is called before the first frame update
   

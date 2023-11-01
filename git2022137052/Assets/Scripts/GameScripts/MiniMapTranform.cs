@@ -13,10 +13,12 @@ public class MiniMapTranform : MonoBehaviour
     public float changeTimer = 0.0f;
     public float changeCheckTime = 10.0f;
 
+    public GameObject[] Mapobject;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        Mapobject = new GameObject[5];
     }
     
     // Update is called once per frame
@@ -27,8 +29,11 @@ public class MiniMapTranform : MonoBehaviour
         changeTimer += Time.deltaTime;
 
         if (this.gameObject.transform.position.z <= -20.0f)
-        {
+        {//for문을 활용해에 조건을 걸수있나? // if문돌때마다 맵 배열에 1+할까? 그것들의 메모리의 활요도의ㅏ 차이가 궁금하다
+            
+
             this.gameObject.transform.position += new Vector3(0.0f, 0.0f, 80.0f);
+            
 
             //if (changeCheckTime <= changeTimer)
             //{

@@ -8,8 +8,9 @@ public class CubeDestroyed : MonoBehaviour
     public int attackPoint = 10;
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Bullet")) // 총알과 충돌
+        if (collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("반응");
             collision.gameObject.GetComponent<BulletDestroyed>().PlayerDamaged(attackPoint);
             Destroy(this.gameObject);
         }

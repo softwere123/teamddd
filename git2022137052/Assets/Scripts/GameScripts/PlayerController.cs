@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         rb.velocity = movement;
     }
 
-    public void PlayerDamaged(int Damage)
+    /*public void PlayerDamaged(int Damage)
     {
         PlayerHP -= Damage;
 
@@ -40,5 +40,8 @@ public class PlayerController : MonoBehaviour
     public void Die()
     {
        this.gameObject.SetActive( false );
-    }
+        Debug.Log("½ÇÇà1");
+        
+     
+    }*/
 }
