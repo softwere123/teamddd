@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1d31da288953e45913a9200924734b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: 40
+  attackPoint: 15
 --- !u!1001 &2285403757688707295
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4310631332cdadb4d9ef70aab445e5fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 6788299100039646559, guid: d42de1e51d89378459ad09335a4b9faa, type: 3}
+  projectilePrefab: {fileID: 4251466033949412965, guid: ee9b47dee55f8be4294a0aba4fb1e460, type: 3}
   projectileNum: 100
   projectileSpeed: 5
   accelerationSpeed: 3
@@ -324,7 +324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2298028955954932724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 8.11, z: 29.31}
+  m_LocalPosition: {x: 0, y: 8.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -394,7 +394,7 @@ BoxCollider:
   m_GameObject: {fileID: 2298028955954932724}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
