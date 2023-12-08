@@ -279,22 +279,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 3990320684645721695, guid: 182cf6f0d2178eb4782c4896137010cc, type: 3}
-  projectileNum: 100
-  projectileSpeed: 5
-  accelerationSpeed: 3
+  projectileNum: 30
+  projectileSpeed: 4
+  accelerationSpeed: 2
   useMaxSpeed: 0
-  maxSpeed: 0
-  useMinSpeed: 0
-  minSpeed: 1.8
+  maxSpeed: 0.1
+  useMinSpeed: 1
+  minSpeed: 0.1
   accelerationTurn: 0
   usePauseAndResume: 0
   pauseTime: 0
   resumeTime: 0
   useAutoRelease: 0
-  autoReleaseTime: 10
+  autoReleaseTime: 5
   starAngle: 40
   shigtAngle: 15
-  betweenDealy: 0
+  betweenDealy: 0.1
 --- !u!1 &2298028955954932724
 GameObject:
   m_ObjectHideFlags: 0
