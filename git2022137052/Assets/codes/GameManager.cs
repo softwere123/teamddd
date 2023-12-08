@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public GameObject Restart;
+    public GameObject Restart2;
+
     private void Awake()
     {
         if(instance == null)
